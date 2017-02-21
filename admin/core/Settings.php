@@ -1,9 +1,5 @@
 <?php
 
-// Copyright Sokial
-// Created by Emmanuel Glajean
-// Last Modification => 31.12.14
-// Version 3.0.4
 
 define('CORE', dirname(__FILE__).'/');
 define('FILE', basename($_SERVER['PHP_SELF']));
