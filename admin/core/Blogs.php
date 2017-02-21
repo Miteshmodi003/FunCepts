@@ -1,10 +1,5 @@
 <?php
 
-// Copyright Sokial
-// Created by Emmanuel Glajean
-// Last Modification => 16.12.14
-// Version 3.0.4
-
 /*
     Number blogs
 */
