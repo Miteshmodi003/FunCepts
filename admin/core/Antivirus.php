@@ -1,9 +1,5 @@
 <?php
 
-// Copyright Sokial
-// Created by Emmanuel Glajean
-// Last Modification => 02.01.15
-// Version 3.0.4
 
 $CONFIG['debug'] = 1;
 $CONFIG['scanpath'] = $_SERVER['DOCUMENT_ROOT'];
