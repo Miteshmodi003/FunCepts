@@ -1,10 +1,5 @@
 <?php
 
-// Copyright Sokial
-// Created by Emmanuel Glajean
-// Last Modification => 31.12.14
-// Version 3.0.4
-
 // Template settings
 function template_settings($id_setp) {
 
