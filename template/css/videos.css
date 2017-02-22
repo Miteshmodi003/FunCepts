@@ -1,0 +1,45 @@
+#style textarea{width:100%;height:100px;border:1px solid #ccc;color:#999;padding:5px;font-family:"Open Sans","Helvetica",sans-serif;margin-bottom:10px;line-height:16px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075)}
+#style textarea:focus{border:1px solid #aaa;box-shadow:0;-webkit-box-shadow:0;-moz-box-shadow:0;box-shadow:0;outline:0}
+#style input[type="text"]{width:100%}
+#video_full{background:#000;height:300px;margin-top:-10px}
+#content_video{width:750px;margin:0 auto;position:relative}
+#content_video div{position:absolute;width:350px;left:10px;top:40px;z-index:3}
+#content_video .titl{color:#fff}
+#content_video .desc{color:#aaa}
+#content_video #img{width:500px;height:300px;float:right;z-index:1}
+#content_video #back{width:500px;height:300px;position:absolute;top:0;right:0;z-index:2}
+#content_video #play{width:120px;height:120px;position:absolute;top:90px;left:450px;z-index:2;-khtml-opacity:0.4;-moz-opacity:0.4;-ms-filter:"alpha(opacity=40)";filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40);filter:alpha(opacity=40);opacity:0.4}
+.bloc_video .cat{background:#f7f7f7;padding:5px 10px;font-size:18px;display:block;margin-top:10px;margin-bottom:10px}
+.bloc_video .catall{background:#f7f7f7;padding:5px 10px;font-size:18px;display:block;margin-top:10px;margin-bottom:10px}
+.bloc_video div{margin-left:5px}
+#video_view{background:#000;height:421px;margin-top:-10px}
+#content_video #back_view{width:750px;height:421px;position:absolute;top:0;right:0;z-index:2}
+#line_view{width:100%;background:#f7f7f7;border-bottom:1px solid #ccc;height:40px}
+#share_social{float:left;margin-top:5px}
+#share_social i{display:inline;top:6px;color:#fff;font-size:20px;margin-left:6px}
+#share_social .network{float:left;margin-left:5px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;width:30px;height:30px}
+#share_social #twitter{background:#95ccee}
+#share_social #facebook{background:#617bba}
+#share_social #google{background:#4d4d4d}
+#video_views{float:right;margin-right:10px;margin-top:10px;font-size:24px;font-weight:700}
+#video_views span{font-size:14px;;font-weight:normal}
+#bloc_view{width:750px;margin:0 auto;background:#fff;border:1px solid #ccc;border-top:0;-webkit-border-bottom-right-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-bottomleft:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+#bloc_view #pic{margin-left:10px;margin-top:10px;float:left;overflow:hidden;-webkit-border-radius:40px;-moz-border-radius:40px;border-radius:40px;width:40px;height:40px;margin-bottom:20px;margin-right:10px}
+#bloc_view #pic img{width:40px;height:40px}
+#bloc_view h1{font-size:18px;padding-top:10px;font-weight:700}
+#bloc_view #time{color:#ccc}
+div.description{color:#aaa;width:100%}
+div.description p{margin:10px;margin-top:0}
+div.description span.opened,div.description span.secret{margin:10px;cursor:pointer;display:block;padding:2px;text-align:center;background:#f7f7f7}
+div.description span.opened:hover,div.description span.secret:hover{padding:1px;border:1px solid #ccc;background:#f0f0f0}
+div.description[open="false"] span.hidd{display:none}
+div.description[open="false"] span.secret{display:none}
+div.description[open="true"] span.opened{display:none}
+ul.video_menu{margin:0;padding:0;height:32px;border-bottom:1px solid #ccc;width:710px;margin-bottom:10px}
+ul.video_menu li{margin-right:-3px;display:inline-block;height:32px;line-height:31px}
+ul.video_menu li a{height:30px;display:block;padding:0 15px;color:#505050;}
+ul.video_menu li a:hover{background:#f7f7f7;height:32px;border-bottom:1px solid #2574A9;}
+ul.video_menu li.active{background:#f7f7f7;border-bottom:1px solid #2574A9}
+#embed p{margin:10px;}
+#embed label{margin-right:10px}
+#embed textarea{width:715px;height:40px;border:1px solid #ccc;color:#999;padding:5px;font-family:"Open Sans","Helvetica",sans-serif;margin-bottom:10px;line-height:16px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075)}

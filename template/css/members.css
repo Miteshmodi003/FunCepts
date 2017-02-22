@@ -1,0 +1,7 @@
+#members{background:#fff;border:1px solid #ccc;width:100%;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.member{display:inline-block;width:228.5px;margin-right:-3px;padding:10px;border-bottom:1px solid #f0f0f0;border-right:1px solid #f0f0f0}
+.member .round_pic{float:left;overflow:hidden;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;width:50px;height:50px;margin-right:10px}
+.member .round_pic img{width:50px;height:50px}
+.member span{display:block;color:#999}
+.member .online{color:#1e9136;font-size:11px;float:right}
+.member .online span{color:#1e9136;font-size:20px;float:left;margin-top:1px;margin-right:3px}

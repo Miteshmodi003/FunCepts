@@ -1,0 +1,12 @@
+.musics{width:100%;height:100px;margin-bottom:10px;color:#BBBCBC;background:#25292C}
+.musics img{width:100px;height:100px;float:left}
+.musics .body{float:left;margin-top:10px;margin-left:20px}
+.musics .body span{display:block;color:#888}
+.musics .title{font-size:16px}
+.musics .body a{color:#BBBCBC}
+.musics .body a:hover{color:#fff}
+.musics .body ul{margin:0;padding:0;margin-top:20px}
+.musics .body ul li{display:inline-block;margin-right:10px}
+.musics .body ul li i{display:inline;font-size:14px;top:1px}
+#music_view{background:#000;height:180px;margin-top:-10px}
+#content_music{width:750px;margin:0 auto;position:relative}

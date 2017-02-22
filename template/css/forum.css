@@ -1,0 +1,19 @@
+.forum_desc{display:block;color:#999}
+.forum_desc a{color:#999;font-weight:600}
+#topic{width:100%;min-height:220px;background:#fff;border:1px solid #ccc;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+#topic h1{width:730px;background:#f7f7f7;border-bottom:1px solid #f0f0f0;padding:10px;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;border-top-left-radius:4px;border-top-right-radius:4px}
+#topic h1 span{color:#999;font-size:11px}
+#topic_user{width:100px;text-align:center;padding:10px;float:left;border-right:1px solid #f0f0f0;margin-right:10px}
+#topic_user img{width:75px;height:75px;-webkit-border-radius:75px;-moz-border-radius:75px;border-radius:75px}
+#topic_user p{color:#999}
+#replies{margin-top:10px;padding:0}
+#replies .reply{display:inline-block;width:100%;background:#fff;border-left:1px solid #ccc;border-right:1px solid #ccc}
+#replies .reply:nth-child(odd){background:#f7f7f7}
+#replies .reply:first-child{border-top:1px solid #ccc}
+#replies .reply:last-child{border-bottom:1px solid #ccc}
+#replies .reply .reply_user{width:80px;text-align:center;padding:10px;float:left;border-right:1px solid #f0f0f0;margin-right:10px}
+#replies .reply .reply_user img{width:50px;height:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px}
+#replies .reply .reply_user p{color:#999}
+#reply_topic{margin-top:10px}
+#reply_topic textarea{width:740px;height:100px;padding:5px;border:1px solid #ccc;border-left:2px solid #ccc;font-family:"Open Sans","Helvetica",sans-serif}
+#reply_topic textarea:focus{border:0;box-shadow:0;outline:0;border:1px solid #ccc;border-left:2px solid #2574A9}

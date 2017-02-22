@@ -1,0 +1,63 @@
+#photos{width:90%;max-width:900px;margin:0 auto}
+#columns{-webkit-column-count:3;-webkit-column-gap:10px;-webkit-column-fill:auto;-moz-column-count:3;-moz-column-gap:10px;-moz-column-fill:auto;column-count:3;column-gap:15px;column-fill:auto}
+.pin{position:relative;-moz-box-shadow:0px 0px 5px 0px #ccc;-webkit-box-shadow:0px 0px 5px 0px #ccc;-o-box-shadow:0px 0px 5px 0px #ccc;box-shadow:0px 0px 5px 0px #ccc;filter:progid:DXImageTransform.Microsoft.Shadow(color=#ccc,Direction=NaN,Strength=5);display:inline-block;background:#fff;margin-bottom:10px;-webkit-column-break-inside:avoid;-moz-column-break-inside:avoid;column-break-inside:avoid;-khtml-opacity:1;-moz-opacity:1;-ms-filter:"alpha(opacity=100)";filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);filter:alpha(opacity=100);opacity:1;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.pin img{width:100%;margin:0;padding:0;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;border-top-left-radius:4px;border-top-right-radius:4px}
+.pin .info_pin{border-top:1px solid #f0f0f0;background:#f7f7f7;font-size:11px;color:#999;margin-top:-6px;padding:5px 10px;-webkit-border-bottom-right-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-bottomleft:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+.pin .info_pin span{display:inline-block;margin-right:10px}
+.pin .info_pin span i{font-size:12px;display:inline;top:0;padding:0}
+#columns:hover .pin:not(:hover){-khtml-opacity:0.4;-moz-opacity:0.4;-ms-filter:"alpha(opacity=40)";filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40);filter:alpha(opacity=40);opacity:0.4}
+#btn_up{width:250px;font-style:normal;font-weight:600;color:#fff;padding:5px 10px 5px 10px;font-size:12px;text-align:center;cursor:pointer;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:#e67e22;border:1px solid #ab6f06;background-image:-webkit-gradient(linear,left top,left bottom,from(#e67e22),to(#c76915));background-image:-webkit-linear-gradient(top,#e67e22,#c76915);background-image:-moz-linear-gradient(top,#e67e22,#c76915);background-image:-ms-linear-gradient(top,#e67e22,#c76915);background-image:-o-linear-gradient(top,#e67e22,#c76915);background-image:linear-gradient(to bottom,#e67e22,#c76915)}
+#btn_up:hover{color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,0.4);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.4);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.4);-o-box-shadow:inset 0 1px 0 rgba(255,255,255,0.4);filter:progid:DXImageTransform.Microsoft.Shadow(color=#fff,Direction=180,Strength=0)}
+#upload_photo{margin-left:250px;}
+#upload_photo #avatar{display:none}
+#photo_preview{background:#f7f7f7;border:1px solid #ccc;width:300px;height:300px}
+#form_photo input[type=radio]{display:none}
+#form_photo input[type=radio] + label{display:inline-block;position:relative;margin:2px;cursor:pointer;background:#f7f7f7;border:1px solid #ccc}
+#form_photo input[type=radio] + label img{width:230px;height:180px}
+#form_photo input[type=radio] + label span{display:none}
+#form_photo input[type=radio]:checked + label{border:1px solid #468847;background:#dff0d8}
+#form_photo input[type=radio]:checked + label span{display:block;position:absolute;z-index:98;font-size:15px;top:0;right:0;background:#dff0d8;color:#468847;border-left:1px solid #468847;border-bottom:1px solid #468847;padding:5px 10px;text-align:center}
+.grayscale{filter:grayscale(1);-webkit-filter:grayscale(1);-moz-filter:grayscale(1);-o-filter:grayscale(1);-ms-filter:grayscale(1)}
+.saturate{filter:saturate(500%);-webkit-filter:saturate(500%);-moz-filter:saturate(500%);-o-filter:saturate(500%);-ms-filter:saturate(500%)}
+.sepia{filter:sepia(1);-webkit-filter:sepia(1);-moz-filter:sepia(1);-o-filter:sepia(1);-ms-filter:sepia(1)}
+.hue45{filter:hue-rotate(45deg);-webkit-filter:hue-rotate(45deg);-moz-filter:hue-rotate(45deg);-o-filter:hue-rotate(45deg);-ms-filter:hue-rotate(45deg)}
+.hue120{filter:hue-rotate(120deg);-webkit-filter:hue-rotate(120deg);-moz-filter:hue-rotate(120deg);-o-filter:hue-rotate(120deg);-ms-filter:hue-rotate(120deg)}
+.hue240{filter:hue-rotate(240deg);-webkit-filter:hue-rotate(240deg);-moz-filter:hue-rotate(240deg);-o-filter:hue-rotate(240deg);-ms-filter:hue-rotate(240deg)}
+.invert{filter:invert(1);-webkit-filter:invert(1);-moz-filter:invert(1);-o-filter:invert(1);-ms-filter:invert(1)}
+.brightness{filter:brightness(50%);-webkit-filter:brightness(50%);-moz-filter:brightness(50%);-o-filter:brightness(50%);-ms-filter:brightness(50%)}
+.contrast{filter:contrast(500%);-webkit-filter:contrast(500%);-moz-filter:contrast(500%);-o-filter:contrast(500%);-ms-filter:contrast(500%)}
+.right_photo{float:right;width:175px;padding:10px;background:#fff;border:1px solid #ccc;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.right_photo #pic{float:left;overflow:hidden;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;width:35px;height:35px;margin-bottom:20px;margin-right:10px}
+.right_photo #pic img{width:35px;height:35px}
+.right_photo p{margin:0}
+.right_photo p span{font-weight:700}
+.right_photo .down{display:block;width:155px;margin-top:10px}
+#photo_view{float:left;width:540px;padding:0;margin:0;background:#fff;border:1px solid #ccc;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+#photo_view .photo_post{width:540px;margin-bottom:-5px;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;border-top-left-radius:4px;border-top-right-radius:4px}
+#infos_photo{background:#f7f7f7;border-top:1px solid #ccc;-webkit-border-bottom-right-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-bottomleft:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+#infos_photo ul{margin:0;padding:0}
+#infos_photo ul li{display:inline-block;margin-top:5px}
+#infos_photo ul li a,#infos_photo ul li div{float:left;color:#2574A9;cursor:pointer;font-size:11px;margin-left:10px}
+#infos_photo ul li a:hover,#infos_photo ul li div:hover{color:#303030}
+#infos_photo .fa{font-size:13px;display:inline;line-height:0}
+#infos_photo ul li a i,#infos_photo ul li div i{display:block;top:0;margin-right:5px}
+#infos_photo #likes{border-top:1px solid #f0f0f0;color:#999;font-size:11px}
+#infos_photo #likes span{float:left;margin-left:10px;margin-top:2px}
+#infos_photo #infos{float:right;margin-right:10px;margin-top:-2px}
+#infos_photo #infos ul{margin:0;padding:0}
+#infos_photo #infos ul li{display:inline-block;margin-left:10px}
+#infos_photo #infos ul li .fa{font-size:13px;display:inline;line-height:0}
+#infos_photo #infos ul li i{display:block;top:0;margin-right:3px}
+.comment{display:none}
+.comment .round_pic{overflow:hidden;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;width:25px;height:25px;float:left;margin:10px}
+.comment .user_pic img{width:25px;height:25px}
+.comment textarea{font-family:"Open Sans","Helvetica",sans-serif;font-size:11px;float:left;height:30px;padding:10px;border:0;resize:none;color:#999;outline:0;width:440px}
+.comment button{background:#f7f7f7;float:right;height:50px;width:30px;margin:0;border:0;color:#999;cursor:pointer;-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;border-bottom-right-radius:4px}
+.comment button:hover{background:#2574A9;color:#fff}
+.comment button i{font-size:24px;top:0;display:block;width:20px;height:20px}
+#share{padding:10px}
+#share textarea{width:470px;border:1px solid #ccc;color:#999;padding:5px;font-family:"Open Sans","Helvetica",sans-serif;margin-bottom:10px;line-height:16px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075)}
+#share textarea:focus{border:1px solid #aaa;box-shadow:0;-webkit-box-shadow:0;-moz-box-shadow:0;box-shadow:0;outline:0}
+#change_photo{position:absolute;top:10px;right:10px}
+#change_photo i{color:#fff;text-shadow: 0 0 1px #000;margin-left:10px;display:inline;top:0}
+#change_photo i:hover{color:#2574A9}
